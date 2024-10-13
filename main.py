@@ -30,7 +30,7 @@ def main():
 
     #wypisanie wyniku
     for word, indexes_together in results.items():
-        print(f"'{word}': {indexes_together}")
+        print(indexes_together)
 
 if __name__ == "__main__":
     main()
